@@ -1,0 +1,882 @@
+{
+  "program" : {
+    "equipmentRequirements" : [
+      "bodyweight",
+      "dumbbell",
+      "bench"
+    ],
+    "experienceGuidance" : [
+      "new",
+      "returning",
+      "intermediate"
+    ],
+    "id" : "lib-dumbbell-home-4w",
+    "intendedGoals" : [
+      "muscleGain",
+      "generalFitness"
+    ],
+    "nameKey" : "program.lib-dumbbell-home-4w.name",
+    "optionalEquipment" : [
+
+    ],
+    "progressionMethod" : "doubleProgression",
+    "provenanceKey" : "program.lib-dumbbell-home-4w.provenance",
+    "sessions" : [
+      {
+        "exercises" : [
+          {
+            "equipmentIDs" : [
+              "bodyweight"
+            ],
+            "exerciseID" : "march-in-place",
+            "id" : "lib-dh.a.march-in-place",
+            "metric" : "duration",
+            "movementPattern" : "cardio",
+            "nameKey" : "exercise.march-in-place.name",
+            "order" : 0,
+            "primaryMuscles" : [
+              "hips"
+            ],
+            "secondaryMuscles" : [
+
+            ],
+            "sets" : [
+              {
+                "durationSeconds" : 180,
+                "id" : "lib-dh.a.march-in-place.generalWarmup.0",
+                "restSeconds" : 0,
+                "type" : "generalWarmup"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell"
+            ],
+            "exerciseID" : "goblet-squat",
+            "id" : "lib-dh.a.goblet-squat",
+            "metric" : "loadReps",
+            "movementPattern" : "squat",
+            "nameKey" : "exercise.goblet-squat.name",
+            "order" : 1,
+            "primaryMuscles" : [
+              "quads",
+              "glutes"
+            ],
+            "secondaryMuscles" : [
+              "core"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.a.goblet-squat.specificWarmup.0",
+                "repsMax" : 8,
+                "repsMin" : 8,
+                "restSeconds" : 45,
+                "type" : "specificWarmup"
+              },
+              {
+                "id" : "lib-dh.a.goblet-squat.working.0",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.a.goblet-squat.working.1",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.a.goblet-squat.working.2",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell",
+              "bench"
+            ],
+            "exerciseID" : "dumbbell-bench",
+            "id" : "lib-dh.a.dumbbell-bench",
+            "metric" : "loadReps",
+            "movementPattern" : "horizontalPush",
+            "nameKey" : "exercise.dumbbell-bench.name",
+            "order" : 2,
+            "primaryMuscles" : [
+              "chest"
+            ],
+            "secondaryMuscles" : [
+              "shoulders",
+              "arms"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.a.dumbbell-bench.specificWarmup.0",
+                "repsMax" : 8,
+                "repsMin" : 8,
+                "restSeconds" : 45,
+                "type" : "specificWarmup"
+              },
+              {
+                "id" : "lib-dh.a.dumbbell-bench.working.0",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.a.dumbbell-bench.working.1",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.a.dumbbell-bench.working.2",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell"
+            ],
+            "exerciseID" : "dumbbell-row",
+            "id" : "lib-dh.a.dumbbell-row",
+            "metric" : "loadReps",
+            "movementPattern" : "horizontalPull",
+            "nameKey" : "exercise.dumbbell-row.name",
+            "order" : 3,
+            "primaryMuscles" : [
+              "upperBack",
+              "lats"
+            ],
+            "secondaryMuscles" : [
+              "arms"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.a.dumbbell-row.working.0",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.a.dumbbell-row.working.1",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.a.dumbbell-row.working.2",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 90,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell"
+            ],
+            "exerciseID" : "dumbbell-lateral-raise",
+            "id" : "lib-dh.a.dumbbell-lateral-raise",
+            "metric" : "loadReps",
+            "movementPattern" : "verticalPush",
+            "nameKey" : "exercise.dumbbell-lateral-raise.name",
+            "order" : 4,
+            "primaryMuscles" : [
+              "shoulders"
+            ],
+            "secondaryMuscles" : [
+
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.a.dumbbell-lateral-raise.working.0",
+                "repsMax" : 15,
+                "repsMin" : 12,
+                "restSeconds" : 60,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.a.dumbbell-lateral-raise.working.1",
+                "repsMax" : 15,
+                "repsMin" : 12,
+                "restSeconds" : 60,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "bodyweight"
+            ],
+            "exerciseID" : "plank",
+            "id" : "lib-dh.a.plank",
+            "metric" : "duration",
+            "movementPattern" : "core",
+            "nameKey" : "exercise.plank.name",
+            "order" : 5,
+            "primaryMuscles" : [
+              "core"
+            ],
+            "secondaryMuscles" : [
+              "shoulders"
+            ],
+            "sets" : [
+              {
+                "durationSeconds" : 30,
+                "id" : "lib-dh.a.plank.working.0",
+                "restSeconds" : 45,
+                "type" : "working"
+              },
+              {
+                "durationSeconds" : 30,
+                "id" : "lib-dh.a.plank.working.1",
+                "restSeconds" : 45,
+                "type" : "working"
+              },
+              {
+                "durationSeconds" : 30,
+                "id" : "lib-dh.a.plank.working.2",
+                "restSeconds" : 45,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "bodyweight"
+            ],
+            "exerciseID" : "easy-breathing",
+            "id" : "lib-dh.a.easy-breathing",
+            "metric" : "duration",
+            "movementPattern" : "mobility",
+            "nameKey" : "exercise.easy-breathing.name",
+            "order" : 6,
+            "primaryMuscles" : [
+              "core"
+            ],
+            "secondaryMuscles" : [
+
+            ],
+            "sets" : [
+              {
+                "durationSeconds" : 60,
+                "id" : "lib-dh.a.easy-breathing.cooldown.0",
+                "restSeconds" : 0,
+                "type" : "cooldown"
+              }
+            ]
+          }
+        ],
+        "id" : "lib-dh.a",
+        "nameKey" : "session.lib-dh.a"
+      },
+      {
+        "exercises" : [
+          {
+            "equipmentIDs" : [
+              "bodyweight"
+            ],
+            "exerciseID" : "march-in-place",
+            "id" : "lib-dh.b.march-in-place",
+            "metric" : "duration",
+            "movementPattern" : "cardio",
+            "nameKey" : "exercise.march-in-place.name",
+            "order" : 0,
+            "primaryMuscles" : [
+              "hips"
+            ],
+            "secondaryMuscles" : [
+
+            ],
+            "sets" : [
+              {
+                "durationSeconds" : 180,
+                "id" : "lib-dh.b.march-in-place.generalWarmup.0",
+                "restSeconds" : 0,
+                "type" : "generalWarmup"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell"
+            ],
+            "exerciseID" : "dumbbell-rdl",
+            "id" : "lib-dh.b.dumbbell-rdl",
+            "metric" : "loadReps",
+            "movementPattern" : "hinge",
+            "nameKey" : "exercise.dumbbell-rdl.name",
+            "order" : 1,
+            "primaryMuscles" : [
+              "hamstrings",
+              "glutes"
+            ],
+            "secondaryMuscles" : [
+              "upperBack"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.b.dumbbell-rdl.specificWarmup.0",
+                "repsMax" : 8,
+                "repsMin" : 8,
+                "restSeconds" : 45,
+                "type" : "specificWarmup"
+              },
+              {
+                "id" : "lib-dh.b.dumbbell-rdl.working.0",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.b.dumbbell-rdl.working.1",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.b.dumbbell-rdl.working.2",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell",
+              "bench"
+            ],
+            "exerciseID" : "seated-dumbbell-press",
+            "id" : "lib-dh.b.seated-dumbbell-press",
+            "metric" : "loadReps",
+            "movementPattern" : "verticalPush",
+            "nameKey" : "exercise.seated-dumbbell-press.name",
+            "order" : 2,
+            "primaryMuscles" : [
+              "shoulders"
+            ],
+            "secondaryMuscles" : [
+              "arms"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.b.seated-dumbbell-press.specificWarmup.0",
+                "repsMax" : 8,
+                "repsMin" : 8,
+                "restSeconds" : 45,
+                "type" : "specificWarmup"
+              },
+              {
+                "id" : "lib-dh.b.seated-dumbbell-press.working.0",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.b.seated-dumbbell-press.working.1",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.b.seated-dumbbell-press.working.2",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell",
+              "bench"
+            ],
+            "exerciseID" : "chest-supported-row",
+            "id" : "lib-dh.b.chest-supported-row",
+            "metric" : "loadReps",
+            "movementPattern" : "horizontalPull",
+            "nameKey" : "exercise.chest-supported-row.name",
+            "order" : 3,
+            "primaryMuscles" : [
+              "upperBack",
+              "lats"
+            ],
+            "secondaryMuscles" : [
+              "arms"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.b.chest-supported-row.working.0",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.b.chest-supported-row.working.1",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.b.chest-supported-row.working.2",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 90,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "bodyweight"
+            ],
+            "exerciseID" : "split-squat",
+            "id" : "lib-dh.b.split-squat",
+            "metric" : "bodyweightReps",
+            "movementPattern" : "lunge",
+            "nameKey" : "exercise.split-squat.name",
+            "order" : 4,
+            "primaryMuscles" : [
+              "quads",
+              "glutes"
+            ],
+            "secondaryMuscles" : [
+              "hips"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.b.split-squat.working.0",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 60,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.b.split-squat.working.1",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 60,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "bodyweight"
+            ],
+            "exerciseID" : "dead-bug",
+            "id" : "lib-dh.b.dead-bug",
+            "metric" : "bodyweightReps",
+            "movementPattern" : "core",
+            "nameKey" : "exercise.dead-bug.name",
+            "order" : 5,
+            "primaryMuscles" : [
+              "core"
+            ],
+            "secondaryMuscles" : [
+              "hips"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.b.dead-bug.working.0",
+                "repsMax" : 10,
+                "repsMin" : 8,
+                "restSeconds" : 45,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.b.dead-bug.working.1",
+                "repsMax" : 10,
+                "repsMin" : 8,
+                "restSeconds" : 45,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "bodyweight"
+            ],
+            "exerciseID" : "easy-breathing",
+            "id" : "lib-dh.b.easy-breathing",
+            "metric" : "duration",
+            "movementPattern" : "mobility",
+            "nameKey" : "exercise.easy-breathing.name",
+            "order" : 6,
+            "primaryMuscles" : [
+              "core"
+            ],
+            "secondaryMuscles" : [
+
+            ],
+            "sets" : [
+              {
+                "durationSeconds" : 60,
+                "id" : "lib-dh.b.easy-breathing.cooldown.0",
+                "restSeconds" : 0,
+                "type" : "cooldown"
+              }
+            ]
+          }
+        ],
+        "id" : "lib-dh.b",
+        "nameKey" : "session.lib-dh.b"
+      },
+      {
+        "exercises" : [
+          {
+            "equipmentIDs" : [
+              "bodyweight"
+            ],
+            "exerciseID" : "march-in-place",
+            "id" : "lib-dh.c.march-in-place",
+            "metric" : "duration",
+            "movementPattern" : "cardio",
+            "nameKey" : "exercise.march-in-place.name",
+            "order" : 0,
+            "primaryMuscles" : [
+              "hips"
+            ],
+            "secondaryMuscles" : [
+
+            ],
+            "sets" : [
+              {
+                "durationSeconds" : 180,
+                "id" : "lib-dh.c.march-in-place.generalWarmup.0",
+                "restSeconds" : 0,
+                "type" : "generalWarmup"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell",
+              "bench"
+            ],
+            "exerciseID" : "bulgarian-split-squat",
+            "id" : "lib-dh.c.bulgarian-split-squat",
+            "metric" : "loadReps",
+            "movementPattern" : "lunge",
+            "nameKey" : "exercise.bulgarian-split-squat.name",
+            "order" : 1,
+            "primaryMuscles" : [
+              "quads",
+              "glutes"
+            ],
+            "secondaryMuscles" : [
+              "hamstrings"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.c.bulgarian-split-squat.specificWarmup.0",
+                "repsMax" : 6,
+                "repsMin" : 6,
+                "restSeconds" : 45,
+                "type" : "specificWarmup"
+              },
+              {
+                "id" : "lib-dh.c.bulgarian-split-squat.working.0",
+                "repsMax" : 10,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.c.bulgarian-split-squat.working.1",
+                "repsMax" : 10,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.c.bulgarian-split-squat.working.2",
+                "repsMax" : 10,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell",
+              "bench"
+            ],
+            "exerciseID" : "incline-dumbbell-press",
+            "id" : "lib-dh.c.incline-dumbbell-press",
+            "metric" : "loadReps",
+            "movementPattern" : "horizontalPush",
+            "nameKey" : "exercise.incline-dumbbell-press.name",
+            "order" : 2,
+            "primaryMuscles" : [
+              "chest",
+              "shoulders"
+            ],
+            "secondaryMuscles" : [
+              "arms"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.c.incline-dumbbell-press.specificWarmup.0",
+                "repsMax" : 8,
+                "repsMin" : 8,
+                "restSeconds" : 45,
+                "type" : "specificWarmup"
+              },
+              {
+                "id" : "lib-dh.c.incline-dumbbell-press.working.0",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.c.incline-dumbbell-press.working.1",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.c.incline-dumbbell-press.working.2",
+                "repsMax" : 12,
+                "repsMin" : 8,
+                "restSeconds" : 90,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell"
+            ],
+            "exerciseID" : "dumbbell-row",
+            "id" : "lib-dh.c.dumbbell-row",
+            "metric" : "loadReps",
+            "movementPattern" : "horizontalPull",
+            "nameKey" : "exercise.dumbbell-row.name",
+            "order" : 3,
+            "primaryMuscles" : [
+              "upperBack",
+              "lats"
+            ],
+            "secondaryMuscles" : [
+              "arms"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.c.dumbbell-row.working.0",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.c.dumbbell-row.working.1",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 90,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.c.dumbbell-row.working.2",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 90,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell"
+            ],
+            "exerciseID" : "dumbbell-curl",
+            "id" : "lib-dh.c.dumbbell-curl",
+            "metric" : "loadReps",
+            "movementPattern" : "verticalPull",
+            "nameKey" : "exercise.dumbbell-curl.name",
+            "order" : 4,
+            "primaryMuscles" : [
+              "arms"
+            ],
+            "secondaryMuscles" : [
+
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.c.dumbbell-curl.working.0",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 60,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.c.dumbbell-curl.working.1",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 60,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "dumbbell"
+            ],
+            "exerciseID" : "overhead-triceps-extension",
+            "id" : "lib-dh.c.overhead-triceps-extension",
+            "metric" : "loadReps",
+            "movementPattern" : "verticalPush",
+            "nameKey" : "exercise.overhead-triceps-extension.name",
+            "order" : 5,
+            "primaryMuscles" : [
+              "arms"
+            ],
+            "secondaryMuscles" : [
+              "shoulders"
+            ],
+            "sets" : [
+              {
+                "id" : "lib-dh.c.overhead-triceps-extension.working.0",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 60,
+                "type" : "working"
+              },
+              {
+                "id" : "lib-dh.c.overhead-triceps-extension.working.1",
+                "repsMax" : 12,
+                "repsMin" : 10,
+                "restSeconds" : 60,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "bodyweight"
+            ],
+            "exerciseID" : "side-plank",
+            "id" : "lib-dh.c.side-plank",
+            "metric" : "duration",
+            "movementPattern" : "core",
+            "nameKey" : "exercise.side-plank.name",
+            "order" : 6,
+            "primaryMuscles" : [
+              "core"
+            ],
+            "secondaryMuscles" : [
+              "shoulders"
+            ],
+            "sets" : [
+              {
+                "durationSeconds" : 30,
+                "id" : "lib-dh.c.side-plank.working.0",
+                "restSeconds" : 30,
+                "type" : "working"
+              },
+              {
+                "durationSeconds" : 30,
+                "id" : "lib-dh.c.side-plank.working.1",
+                "restSeconds" : 30,
+                "type" : "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs" : [
+              "bodyweight"
+            ],
+            "exerciseID" : "easy-breathing",
+            "id" : "lib-dh.c.easy-breathing",
+            "metric" : "duration",
+            "movementPattern" : "mobility",
+            "nameKey" : "exercise.easy-breathing.name",
+            "order" : 7,
+            "primaryMuscles" : [
+              "core"
+            ],
+            "secondaryMuscles" : [
+
+            ],
+            "sets" : [
+              {
+                "durationSeconds" : 60,
+                "id" : "lib-dh.c.easy-breathing.cooldown.0",
+                "restSeconds" : 0,
+                "type" : "cooldown"
+              }
+            ]
+          }
+        ],
+        "id" : "lib-dh.c",
+        "nameKey" : "session.lib-dh.c"
+      }
+    ],
+    "split" : "fullBody",
+    "summaryKey" : "program.lib-dumbbell-home-4w.summary",
+    "variants" : [
+      {
+        "daysPerWeek" : 3,
+        "durationEstimateMinutes" : 45,
+        "id" : "lib-dumbbell-home-4w.three-day",
+        "nameKey" : "variant.lib-dumbbell-home-4w.three-day",
+        "sessionLimit" : 12,
+        "sessionOrder" : [
+          "lib-dh.a",
+          "lib-dh.b",
+          "lib-dh.c"
+        ]
+      }
+    ],
+    "version" : 1
+  },
+  "schema" : 1,
+  "text" : {
+    "ar" : {
+      "program.lib-dumbbell-home-4w.name" : "دمبل في البيت · 4 أسابيع",
+      "program.lib-dumbbell-home-4w.provenance" : "من مكتبة ثبات المحدَّثة. مبني على مبادئ التدرّج المزدوج وتمرين الجسم كامل 3 أيام.",
+      "program.lib-dumbbell-home-4w.summary" : "ثلاث حصص للجسم كامل في الأسبوع بزوج دمبل ومقعد. زِد التكرارات حتى أعلى المدى في كل المجموعات، ثم ارفع الوزن قليلًا.",
+      "session.lib-dh.a" : "الجسم كامل أ",
+      "session.lib-dh.b" : "الجسم كامل ب",
+      "session.lib-dh.c" : "الجسم كامل ج",
+      "variant.lib-dumbbell-home-4w.three-day" : "3 أيام في الأسبوع · 12 حصة"
+    },
+    "en" : {
+      "program.lib-dumbbell-home-4w.name" : "Dumbbells at Home · 4 weeks",
+      "program.lib-dumbbell-home-4w.provenance" : "From the updated Thabat library. Built on double progression and a 3-day full-body layout.",
+      "program.lib-dumbbell-home-4w.summary" : "Three full-body sessions a week with a pair of dumbbells and a bench. Add reps until every set reaches the top of the range, then add a little weight.",
+      "session.lib-dh.a" : "Full body A",
+      "session.lib-dh.b" : "Full body B",
+      "session.lib-dh.c" : "Full body C",
+      "variant.lib-dumbbell-home-4w.three-day" : "3 days a week · 12 sessions"
+    }
+  }
+}

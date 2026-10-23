@@ -1,0 +1,12 @@
+{
+  "courses": [
+    {
+      "featured": true,
+      "file": "courses/lib-dumbbell-home-4w.json",
+      "id": "lib-dumbbell-home-4w",
+      "version": 1
+    }
+  ],
+  "hidden": [],
+  "schema": 1
+}

@@ -5,6 +5,42 @@
       "file": "courses/lib-dumbbell-home-4w.json",
       "id": "lib-dumbbell-home-4w",
       "version": 1
+    },
+    {
+      "featured": true,
+      "file": "courses/lib-guide-strength-3.json",
+      "id": "lib-guide-strength-3",
+      "version": 1
+    },
+    {
+      "featured": true,
+      "file": "courses/lib-guide-tiers-4.json",
+      "id": "lib-guide-tiers-4",
+      "version": 1
+    },
+    {
+      "featured": true,
+      "file": "courses/lib-guide-upper-lower-4.json",
+      "id": "lib-guide-upper-lower-4",
+      "version": 1
+    },
+    {
+      "featured": true,
+      "file": "courses/lib-guide-power-size-5.json",
+      "id": "lib-guide-power-size-5",
+      "version": 1
+    },
+    {
+      "featured": true,
+      "file": "courses/lib-c25k-8w.json",
+      "id": "lib-c25k-8w",
+      "version": 1
+    },
+    {
+      "featured": true,
+      "file": "courses/lib-guide-otago-balance.json",
+      "id": "lib-guide-otago-balance",
+      "version": 1
     }
   ],
   "hidden": [],

@@ -1,0 +1,1206 @@
+{
+  "program": {
+    "equipmentRequirements": [
+      "barbell",
+      "rack",
+      "bench",
+      "dumbbell",
+      "cable",
+      "machine",
+      "pullup-bar",
+      "bodyweight"
+    ],
+    "experienceGuidance": [
+      "intermediate",
+      "experienced"
+    ],
+    "id": "lib-guide-tiers-4",
+    "intendedGoals": [
+      "strength",
+      "muscleGain"
+    ],
+    "nameKey": "program.lib-guide-tiers-4.name",
+    "optionalEquipment": [],
+    "progressionMethod": "doubleProgression",
+    "provenanceKey": "program.lib-guide-tiers-4.provenance",
+    "sessions": [
+      {
+        "exercises": [
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "march-in-place",
+            "id": "lib-gt.l1.march-in-place",
+            "metric": "duration",
+            "movementPattern": "cardio",
+            "nameKey": "exercise.march-in-place.name",
+            "order": 0,
+            "primaryMuscles": [
+              "hips"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "durationSeconds": 300,
+                "id": "lib-gt.l1.march-in-place.generalWarmup.0",
+                "restSeconds": 0,
+                "type": "generalWarmup"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "barbell",
+              "rack"
+            ],
+            "exerciseID": "back-squat",
+            "id": "lib-gt.l1.back-squat",
+            "metric": "loadReps",
+            "movementPattern": "squat",
+            "nameKey": "exercise.back-squat.name",
+            "order": 1,
+            "primaryMuscles": [
+              "quads",
+              "glutes"
+            ],
+            "secondaryMuscles": [
+              "core"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.l1.back-squat.specificWarmup.0",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.l1.back-squat.specificWarmup.1",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.l1.back-squat.specificWarmup.2",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.l1.back-squat.working.0",
+                "repsMax": 5,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l1.back-squat.working.1",
+                "repsMax": 5,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l1.back-squat.working.2",
+                "repsMax": 5,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l1.back-squat.working.3",
+                "repsMax": 5,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "barbell"
+            ],
+            "exerciseID": "barbell-rdl",
+            "id": "lib-gt.l1.barbell-rdl",
+            "metric": "loadReps",
+            "movementPattern": "hinge",
+            "nameKey": "exercise.barbell-rdl.name",
+            "order": 2,
+            "primaryMuscles": [
+              "hamstrings",
+              "glutes"
+            ],
+            "secondaryMuscles": [
+              "upperBack"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.l1.barbell-rdl.working.0",
+                "repsMax": 8,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l1.barbell-rdl.working.1",
+                "repsMax": 8,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l1.barbell-rdl.working.2",
+                "repsMax": 8,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "machine"
+            ],
+            "exerciseID": "leg-press",
+            "id": "lib-gt.l1.leg-press",
+            "metric": "loadReps",
+            "movementPattern": "squat",
+            "nameKey": "exercise.leg-press.name",
+            "order": 3,
+            "primaryMuscles": [
+              "quads",
+              "glutes"
+            ],
+            "secondaryMuscles": [
+              "hamstrings"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.l1.leg-press.working.0",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l1.leg-press.working.1",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l1.leg-press.working.2",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 75,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "pullup-bar"
+            ],
+            "exerciseID": "hanging-knee-raise",
+            "id": "lib-gt.l1.hanging-knee-raise",
+            "metric": "bodyweightReps",
+            "movementPattern": "core",
+            "nameKey": "exercise.hanging-knee-raise.name",
+            "order": 4,
+            "primaryMuscles": [
+              "core",
+              "hips"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "id": "lib-gt.l1.hanging-knee-raise.working.0",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l1.hanging-knee-raise.working.1",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l1.hanging-knee-raise.working.2",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "easy-breathing",
+            "id": "lib-gt.l1.easy-breathing",
+            "metric": "duration",
+            "movementPattern": "mobility",
+            "nameKey": "exercise.easy-breathing.name",
+            "order": 5,
+            "primaryMuscles": [
+              "core"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "durationSeconds": 120,
+                "id": "lib-gt.l1.easy-breathing.cooldown.0",
+                "restSeconds": 0,
+                "type": "cooldown"
+              }
+            ]
+          }
+        ],
+        "id": "lib-gt.l1",
+        "nameKey": "session.lib-gt.l1"
+      },
+      {
+        "exercises": [
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "march-in-place",
+            "id": "lib-gt.u1.march-in-place",
+            "metric": "duration",
+            "movementPattern": "cardio",
+            "nameKey": "exercise.march-in-place.name",
+            "order": 0,
+            "primaryMuscles": [
+              "hips"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "durationSeconds": 300,
+                "id": "lib-gt.u1.march-in-place.generalWarmup.0",
+                "restSeconds": 0,
+                "type": "generalWarmup"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "barbell",
+              "bench",
+              "rack"
+            ],
+            "exerciseID": "barbell-bench",
+            "id": "lib-gt.u1.barbell-bench",
+            "metric": "loadReps",
+            "movementPattern": "horizontalPush",
+            "nameKey": "exercise.barbell-bench.name",
+            "order": 1,
+            "primaryMuscles": [
+              "chest"
+            ],
+            "secondaryMuscles": [
+              "shoulders",
+              "arms"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.u1.barbell-bench.specificWarmup.0",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.u1.barbell-bench.specificWarmup.1",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.u1.barbell-bench.specificWarmup.2",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.u1.barbell-bench.working.0",
+                "repsMax": 5,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.barbell-bench.working.1",
+                "repsMax": 5,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.barbell-bench.working.2",
+                "repsMax": 5,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.barbell-bench.working.3",
+                "repsMax": 5,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "barbell"
+            ],
+            "exerciseID": "barbell-row",
+            "id": "lib-gt.u1.barbell-row",
+            "metric": "loadReps",
+            "movementPattern": "horizontalPull",
+            "nameKey": "exercise.barbell-row.name",
+            "order": 2,
+            "primaryMuscles": [
+              "upperBack",
+              "lats"
+            ],
+            "secondaryMuscles": [
+              "arms"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.u1.barbell-row.working.0",
+                "repsMax": 10,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.barbell-row.working.1",
+                "repsMax": 10,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.barbell-row.working.2",
+                "repsMax": 10,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "dumbbell",
+              "bench"
+            ],
+            "exerciseID": "seated-dumbbell-press",
+            "id": "lib-gt.u1.seated-dumbbell-press",
+            "metric": "loadReps",
+            "movementPattern": "verticalPush",
+            "nameKey": "exercise.seated-dumbbell-press.name",
+            "order": 3,
+            "primaryMuscles": [
+              "shoulders"
+            ],
+            "secondaryMuscles": [
+              "arms"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.u1.seated-dumbbell-press.working.0",
+                "repsMax": 10,
+                "repsMin": 8,
+                "restSeconds": 90,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.seated-dumbbell-press.working.1",
+                "repsMax": 10,
+                "repsMin": 8,
+                "restSeconds": 90,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.seated-dumbbell-press.working.2",
+                "repsMax": 10,
+                "repsMin": 8,
+                "restSeconds": 90,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "cable"
+            ],
+            "exerciseID": "lat-pulldown",
+            "id": "lib-gt.u1.lat-pulldown",
+            "metric": "loadReps",
+            "movementPattern": "verticalPull",
+            "nameKey": "exercise.lat-pulldown.name",
+            "order": 4,
+            "primaryMuscles": [
+              "lats"
+            ],
+            "secondaryMuscles": [
+              "arms",
+              "upperBack"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.u1.lat-pulldown.working.0",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.lat-pulldown.working.1",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.lat-pulldown.working.2",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "cable"
+            ],
+            "exerciseID": "face-pull",
+            "id": "lib-gt.u1.face-pull",
+            "metric": "loadReps",
+            "movementPattern": "horizontalPull",
+            "nameKey": "exercise.face-pull.name",
+            "order": 5,
+            "primaryMuscles": [
+              "shoulders",
+              "upperBack"
+            ],
+            "secondaryMuscles": [
+              "arms"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.u1.face-pull.working.0",
+                "repsMax": 20,
+                "repsMin": 12,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.face-pull.working.1",
+                "repsMax": 20,
+                "repsMin": 12,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u1.face-pull.working.2",
+                "repsMax": 20,
+                "repsMin": 12,
+                "restSeconds": 60,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "easy-breathing",
+            "id": "lib-gt.u1.easy-breathing",
+            "metric": "duration",
+            "movementPattern": "mobility",
+            "nameKey": "exercise.easy-breathing.name",
+            "order": 6,
+            "primaryMuscles": [
+              "core"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "durationSeconds": 120,
+                "id": "lib-gt.u1.easy-breathing.cooldown.0",
+                "restSeconds": 0,
+                "type": "cooldown"
+              }
+            ]
+          }
+        ],
+        "id": "lib-gt.u1",
+        "nameKey": "session.lib-gt.u1"
+      },
+      {
+        "exercises": [
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "march-in-place",
+            "id": "lib-gt.l2.march-in-place",
+            "metric": "duration",
+            "movementPattern": "cardio",
+            "nameKey": "exercise.march-in-place.name",
+            "order": 0,
+            "primaryMuscles": [
+              "hips"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "durationSeconds": 300,
+                "id": "lib-gt.l2.march-in-place.generalWarmup.0",
+                "restSeconds": 0,
+                "type": "generalWarmup"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "barbell"
+            ],
+            "exerciseID": "conventional-deadlift",
+            "id": "lib-gt.l2.conventional-deadlift",
+            "metric": "loadReps",
+            "movementPattern": "hinge",
+            "nameKey": "exercise.conventional-deadlift.name",
+            "order": 1,
+            "primaryMuscles": [
+              "hamstrings",
+              "glutes",
+              "upperBack"
+            ],
+            "secondaryMuscles": [
+              "core",
+              "lats"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.l2.conventional-deadlift.specificWarmup.0",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.l2.conventional-deadlift.specificWarmup.1",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.l2.conventional-deadlift.specificWarmup.2",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.l2.conventional-deadlift.working.0",
+                "repsMax": 6,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l2.conventional-deadlift.working.1",
+                "repsMax": 6,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l2.conventional-deadlift.working.2",
+                "repsMax": 6,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l2.conventional-deadlift.working.3",
+                "repsMax": 6,
+                "repsMin": 3,
+                "restSeconds": 240,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "barbell",
+              "rack"
+            ],
+            "exerciseID": "front-squat",
+            "id": "lib-gt.l2.front-squat",
+            "metric": "loadReps",
+            "movementPattern": "squat",
+            "nameKey": "exercise.front-squat.name",
+            "order": 2,
+            "primaryMuscles": [
+              "quads",
+              "core"
+            ],
+            "secondaryMuscles": [
+              "glutes"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.l2.front-squat.working.0",
+                "repsMax": 8,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l2.front-squat.working.1",
+                "repsMax": 8,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l2.front-squat.working.2",
+                "repsMax": 8,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "machine"
+            ],
+            "exerciseID": "leg-curl",
+            "id": "lib-gt.l2.leg-curl",
+            "metric": "loadReps",
+            "movementPattern": "hinge",
+            "nameKey": "exercise.leg-curl.name",
+            "order": 3,
+            "primaryMuscles": [
+              "hamstrings"
+            ],
+            "secondaryMuscles": [
+              "glutes"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.l2.leg-curl.working.0",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l2.leg-curl.working.1",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l2.leg-curl.working.2",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 75,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "machine"
+            ],
+            "exerciseID": "standing-calf-raise",
+            "id": "lib-gt.l2.standing-calf-raise",
+            "metric": "loadReps",
+            "movementPattern": "squat",
+            "nameKey": "exercise.standing-calf-raise.name",
+            "order": 4,
+            "primaryMuscles": [
+              "calves"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "id": "lib-gt.l2.standing-calf-raise.working.0",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l2.standing-calf-raise.working.1",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.l2.standing-calf-raise.working.2",
+                "repsMax": 15,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "side-plank",
+            "id": "lib-gt.l2.side-plank",
+            "metric": "duration",
+            "movementPattern": "core",
+            "nameKey": "exercise.side-plank.name",
+            "order": 5,
+            "primaryMuscles": [
+              "core"
+            ],
+            "secondaryMuscles": [
+              "shoulders"
+            ],
+            "sets": [
+              {
+                "durationSeconds": 30,
+                "id": "lib-gt.l2.side-plank.working.0",
+                "restSeconds": 30,
+                "type": "working"
+              },
+              {
+                "durationSeconds": 30,
+                "id": "lib-gt.l2.side-plank.working.1",
+                "restSeconds": 30,
+                "type": "working"
+              },
+              {
+                "durationSeconds": 30,
+                "id": "lib-gt.l2.side-plank.working.2",
+                "restSeconds": 30,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "easy-breathing",
+            "id": "lib-gt.l2.easy-breathing",
+            "metric": "duration",
+            "movementPattern": "mobility",
+            "nameKey": "exercise.easy-breathing.name",
+            "order": 6,
+            "primaryMuscles": [
+              "core"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "durationSeconds": 120,
+                "id": "lib-gt.l2.easy-breathing.cooldown.0",
+                "restSeconds": 0,
+                "type": "cooldown"
+              }
+            ]
+          }
+        ],
+        "id": "lib-gt.l2",
+        "nameKey": "session.lib-gt.l2"
+      },
+      {
+        "exercises": [
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "march-in-place",
+            "id": "lib-gt.u2.march-in-place",
+            "metric": "duration",
+            "movementPattern": "cardio",
+            "nameKey": "exercise.march-in-place.name",
+            "order": 0,
+            "primaryMuscles": [
+              "hips"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "durationSeconds": 300,
+                "id": "lib-gt.u2.march-in-place.generalWarmup.0",
+                "restSeconds": 0,
+                "type": "generalWarmup"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "barbell",
+              "bench",
+              "rack"
+            ],
+            "exerciseID": "incline-barbell-bench",
+            "id": "lib-gt.u2.incline-barbell-bench",
+            "metric": "loadReps",
+            "movementPattern": "horizontalPush",
+            "nameKey": "exercise.incline-barbell-bench.name",
+            "order": 1,
+            "primaryMuscles": [
+              "chest",
+              "shoulders"
+            ],
+            "secondaryMuscles": [
+              "arms"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.u2.incline-barbell-bench.specificWarmup.0",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.u2.incline-barbell-bench.specificWarmup.1",
+                "repsMax": 5,
+                "repsMin": 5,
+                "restSeconds": 60,
+                "type": "specificWarmup"
+              },
+              {
+                "id": "lib-gt.u2.incline-barbell-bench.working.0",
+                "repsMax": 10,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.incline-barbell-bench.working.1",
+                "repsMax": 10,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.incline-barbell-bench.working.2",
+                "repsMax": 10,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "cable"
+            ],
+            "exerciseID": "lat-pulldown",
+            "id": "lib-gt.u2.lat-pulldown",
+            "metric": "loadReps",
+            "movementPattern": "verticalPull",
+            "nameKey": "exercise.lat-pulldown.name",
+            "order": 2,
+            "primaryMuscles": [
+              "lats"
+            ],
+            "secondaryMuscles": [
+              "arms",
+              "upperBack"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.u2.lat-pulldown.working.0",
+                "repsMax": 12,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.lat-pulldown.working.1",
+                "repsMax": 12,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.lat-pulldown.working.2",
+                "repsMax": 12,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.lat-pulldown.working.3",
+                "repsMax": 12,
+                "repsMin": 6,
+                "restSeconds": 120,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "dumbbell",
+              "bench"
+            ],
+            "exerciseID": "dumbbell-bench",
+            "id": "lib-gt.u2.dumbbell-bench",
+            "metric": "loadReps",
+            "movementPattern": "horizontalPush",
+            "nameKey": "exercise.dumbbell-bench.name",
+            "order": 3,
+            "primaryMuscles": [
+              "chest"
+            ],
+            "secondaryMuscles": [
+              "shoulders",
+              "arms"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.u2.dumbbell-bench.working.0",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.dumbbell-bench.working.1",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.dumbbell-bench.working.2",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "cable"
+            ],
+            "exerciseID": "seated-cable-row",
+            "id": "lib-gt.u2.seated-cable-row",
+            "metric": "loadReps",
+            "movementPattern": "horizontalPull",
+            "nameKey": "exercise.seated-cable-row.name",
+            "order": 4,
+            "primaryMuscles": [
+              "upperBack",
+              "lats"
+            ],
+            "secondaryMuscles": [
+              "arms"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.u2.seated-cable-row.working.0",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.seated-cable-row.working.1",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.seated-cable-row.working.2",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "dumbbell"
+            ],
+            "exerciseID": "dumbbell-curl",
+            "id": "lib-gt.u2.dumbbell-curl",
+            "metric": "loadReps",
+            "movementPattern": "verticalPull",
+            "nameKey": "exercise.dumbbell-curl.name",
+            "order": 5,
+            "primaryMuscles": [
+              "arms"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "id": "lib-gt.u2.dumbbell-curl.working.0",
+                "repsMax": 12,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.dumbbell-curl.working.1",
+                "repsMax": 12,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.dumbbell-curl.working.2",
+                "repsMax": 12,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "cable"
+            ],
+            "exerciseID": "triceps-pushdown",
+            "id": "lib-gt.u2.triceps-pushdown",
+            "metric": "loadReps",
+            "movementPattern": "verticalPush",
+            "nameKey": "exercise.triceps-pushdown.name",
+            "order": 6,
+            "primaryMuscles": [
+              "arms"
+            ],
+            "secondaryMuscles": [
+              "shoulders"
+            ],
+            "sets": [
+              {
+                "id": "lib-gt.u2.triceps-pushdown.working.0",
+                "repsMax": 12,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.triceps-pushdown.working.1",
+                "repsMax": 12,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-gt.u2.triceps-pushdown.working.2",
+                "repsMax": 12,
+                "repsMin": 10,
+                "restSeconds": 60,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "easy-breathing",
+            "id": "lib-gt.u2.easy-breathing",
+            "metric": "duration",
+            "movementPattern": "mobility",
+            "nameKey": "exercise.easy-breathing.name",
+            "order": 7,
+            "primaryMuscles": [
+              "core"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "durationSeconds": 120,
+                "id": "lib-gt.u2.easy-breathing.cooldown.0",
+                "restSeconds": 0,
+                "type": "cooldown"
+              }
+            ]
+          }
+        ],
+        "id": "lib-gt.u2",
+        "nameKey": "session.lib-gt.u2"
+      }
+    ],
+    "split": "upperLower",
+    "summaryKey": "program.lib-guide-tiers-4.summary",
+    "variants": [
+      {
+        "daysPerWeek": 4,
+        "durationEstimateMinutes": 70,
+        "id": "lib-guide-tiers-4.four-day",
+        "nameKey": "variant.lib-guide-tiers-4.four-day",
+        "sessionLimit": 32,
+        "sessionOrder": [
+          "lib-gt.l1",
+          "lib-gt.u1",
+          "lib-gt.l2",
+          "lib-gt.u2"
+        ],
+        "trainingDays": [
+          0,
+          1,
+          3,
+          4
+        ]
+      }
+    ],
+    "version": 1
+  },
+  "schema": 1,
+  "text": {
+    "ar": {
+      "program.lib-guide-tiers-4.name": "قوة وتضخيم بالطبقات · 4 أيام",
+      "program.lib-guide-tiers-4.origin": "مستوحى من: GZCLP",
+      "program.lib-guide-tiers-4.provenance": "من الدليل اليومي في مكتبة ثبات. يستخدم فكرة طبقات T1/T2/T3 دون نسخ الجدول الأصلي.",
+      "program.lib-guide-tiers-4.summary": "أربع حصص علوي/سفلي، كل حصة تبدأ برفعة ثقيلة (T1) ثم تمرين مساند (T2) ثم تمارين حجم (T3). راحة 3–5 دقائق في T1، ودقيقتان في T2، و60–90 ثانية في T3. عندما تصل لأعلى التكرارات دون تجاوز RPE 8 زد الحمل 2–5%، وإذا فشلت جلستين متتاليتين خفّض 5–10%.",
+      "session.lib-gt.l1": "سفلي · شدة",
+      "session.lib-gt.l2": "سفلي · حجم",
+      "session.lib-gt.u1": "علوي · شدة",
+      "session.lib-gt.u2": "علوي · حجم",
+      "variant.lib-guide-tiers-4.four-day": "4 أيام في الأسبوع · 8 أسابيع"
+    },
+    "en": {
+      "program.lib-guide-tiers-4.name": "Tiered Strength & Size · 4 days",
+      "program.lib-guide-tiers-4.origin": "Inspired by: GZCLP",
+      "program.lib-guide-tiers-4.provenance": "From the daily guide in the Thabat library. Uses the T1/T2/T3 tier idea without copying the original plan.",
+      "program.lib-guide-tiers-4.summary": "Four upper/lower sessions. Each opens with a heavy lift (T1), then a support lift (T2), then volume work (T3). Rest 3–5 minutes on T1, 2 minutes on T2 and 60–90 seconds on T3. When you hit the top of the range without going past RPE 8, add 2–5%; after two failed sessions in a row, drop 5–10%.",
+      "session.lib-gt.l1": "Lower · heavy",
+      "session.lib-gt.l2": "Lower · volume",
+      "session.lib-gt.u1": "Upper · heavy",
+      "session.lib-gt.u2": "Upper · volume",
+      "variant.lib-guide-tiers-4.four-day": "4 days a week · 8 weeks"
+    }
+  }
+}

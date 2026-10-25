@@ -1,0 +1,830 @@
+{
+  "exercises": [
+    {
+      "alternativeIDs": [
+        "march-in-place"
+      ],
+      "commonErrorKey": "exercise.lib-ot-walk.errors",
+      "equipmentIDs": [
+        "bodyweight"
+      ],
+      "id": "lib-ot-walk",
+      "instructionKey": "exercise.lib-ot-walk.instructions",
+      "laterality": "bilateral",
+      "media": {
+        "isAvailable": false,
+        "licenseNoteKey": "media.unavailable"
+      },
+      "metric": "duration",
+      "movementPattern": "cardio",
+      "nameKey": "exercise.lib-ot-walk.name",
+      "primaryMuscles": [
+        "hips"
+      ],
+      "secondaryMuscles": [
+        "calves"
+      ],
+      "version": 1
+    },
+    {
+      "alternativeIDs": [
+        "bodyweight-squat"
+      ],
+      "commonErrorKey": "exercise.lib-ot-chair-stand.errors",
+      "equipmentIDs": [
+        "bodyweight"
+      ],
+      "id": "lib-ot-chair-stand",
+      "instructionKey": "exercise.lib-ot-chair-stand.instructions",
+      "laterality": "bilateral",
+      "media": {
+        "isAvailable": false,
+        "licenseNoteKey": "media.unavailable"
+      },
+      "metric": "bodyweightReps",
+      "movementPattern": "squat",
+      "nameKey": "exercise.lib-ot-chair-stand.name",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "hips"
+      ],
+      "version": 1
+    },
+    {
+      "alternativeIDs": [],
+      "commonErrorKey": "exercise.lib-ot-heel-raise.errors",
+      "equipmentIDs": [
+        "bodyweight"
+      ],
+      "id": "lib-ot-heel-raise",
+      "instructionKey": "exercise.lib-ot-heel-raise.instructions",
+      "laterality": "bilateral",
+      "media": {
+        "isAvailable": false,
+        "licenseNoteKey": "media.unavailable"
+      },
+      "metric": "bodyweightReps",
+      "movementPattern": "squat",
+      "nameKey": "exercise.lib-ot-heel-raise.name",
+      "primaryMuscles": [
+        "calves"
+      ],
+      "secondaryMuscles": [],
+      "version": 1
+    },
+    {
+      "alternativeIDs": [],
+      "commonErrorKey": "exercise.lib-ot-knee-extension.errors",
+      "equipmentIDs": [
+        "bodyweight"
+      ],
+      "id": "lib-ot-knee-extension",
+      "instructionKey": "exercise.lib-ot-knee-extension.instructions",
+      "laterality": "bilateral",
+      "media": {
+        "isAvailable": false,
+        "licenseNoteKey": "media.unavailable"
+      },
+      "metric": "bodyweightReps",
+      "movementPattern": "squat",
+      "nameKey": "exercise.lib-ot-knee-extension.name",
+      "primaryMuscles": [
+        "quads"
+      ],
+      "secondaryMuscles": [],
+      "version": 1
+    },
+    {
+      "alternativeIDs": [],
+      "commonErrorKey": "exercise.lib-ot-balance-hold.errors",
+      "equipmentIDs": [
+        "bodyweight"
+      ],
+      "id": "lib-ot-balance-hold",
+      "instructionKey": "exercise.lib-ot-balance-hold.instructions",
+      "laterality": "unilateral",
+      "media": {
+        "isAvailable": false,
+        "licenseNoteKey": "media.unavailable"
+      },
+      "metric": "duration",
+      "movementPattern": "core",
+      "nameKey": "exercise.lib-ot-balance-hold.name",
+      "primaryMuscles": [
+        "hips",
+        "core"
+      ],
+      "secondaryMuscles": [
+        "calves"
+      ],
+      "version": 1
+    },
+    {
+      "alternativeIDs": [],
+      "commonErrorKey": "exercise.lib-ot-step-up.errors",
+      "equipmentIDs": [
+        "bodyweight"
+      ],
+      "id": "lib-ot-step-up",
+      "instructionKey": "exercise.lib-ot-step-up.instructions",
+      "laterality": "unilateral",
+      "media": {
+        "isAvailable": false,
+        "licenseNoteKey": "media.unavailable"
+      },
+      "metric": "bodyweightReps",
+      "movementPattern": "lunge",
+      "nameKey": "exercise.lib-ot-step-up.name",
+      "primaryMuscles": [
+        "quads",
+        "glutes"
+      ],
+      "secondaryMuscles": [
+        "calves"
+      ],
+      "version": 1
+    },
+    {
+      "alternativeIDs": [],
+      "commonErrorKey": "exercise.lib-ot-knee-curl.errors",
+      "equipmentIDs": [
+        "bodyweight"
+      ],
+      "id": "lib-ot-knee-curl",
+      "instructionKey": "exercise.lib-ot-knee-curl.instructions",
+      "laterality": "unilateral",
+      "media": {
+        "isAvailable": false,
+        "licenseNoteKey": "media.unavailable"
+      },
+      "metric": "bodyweightReps",
+      "movementPattern": "hinge",
+      "nameKey": "exercise.lib-ot-knee-curl.name",
+      "primaryMuscles": [
+        "hamstrings"
+      ],
+      "secondaryMuscles": [],
+      "version": 1
+    },
+    {
+      "alternativeIDs": [
+        "push-up"
+      ],
+      "commonErrorKey": "exercise.lib-ot-wall-push-up.errors",
+      "equipmentIDs": [
+        "bodyweight"
+      ],
+      "id": "lib-ot-wall-push-up",
+      "instructionKey": "exercise.lib-ot-wall-push-up.instructions",
+      "laterality": "bilateral",
+      "media": {
+        "isAvailable": false,
+        "licenseNoteKey": "media.unavailable"
+      },
+      "metric": "bodyweightReps",
+      "movementPattern": "horizontalPush",
+      "nameKey": "exercise.lib-ot-wall-push-up.name",
+      "primaryMuscles": [
+        "chest"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "arms"
+      ],
+      "version": 1
+    },
+    {
+      "alternativeIDs": [],
+      "commonErrorKey": "exercise.lib-ot-tandem-walk.errors",
+      "equipmentIDs": [
+        "bodyweight"
+      ],
+      "id": "lib-ot-tandem-walk",
+      "instructionKey": "exercise.lib-ot-tandem-walk.instructions",
+      "laterality": "bilateral",
+      "media": {
+        "isAvailable": false,
+        "licenseNoteKey": "media.unavailable"
+      },
+      "metric": "duration",
+      "movementPattern": "core",
+      "nameKey": "exercise.lib-ot-tandem-walk.name",
+      "primaryMuscles": [
+        "hips",
+        "core"
+      ],
+      "secondaryMuscles": [
+        "calves"
+      ],
+      "version": 1
+    },
+    {
+      "alternativeIDs": [],
+      "commonErrorKey": "exercise.lib-ot-mobility.errors",
+      "equipmentIDs": [
+        "bodyweight"
+      ],
+      "id": "lib-ot-mobility",
+      "instructionKey": "exercise.lib-ot-mobility.instructions",
+      "laterality": "bilateral",
+      "media": {
+        "isAvailable": false,
+        "licenseNoteKey": "media.unavailable"
+      },
+      "metric": "duration",
+      "movementPattern": "mobility",
+      "nameKey": "exercise.lib-ot-mobility.name",
+      "primaryMuscles": [
+        "hips"
+      ],
+      "secondaryMuscles": [
+        "shoulders",
+        "calves"
+      ],
+      "version": 1
+    }
+  ],
+  "program": {
+    "equipmentRequirements": [
+      "bodyweight"
+    ],
+    "experienceGuidance": [
+      "new",
+      "returning"
+    ],
+    "id": "lib-guide-otago-balance",
+    "intendedGoals": [
+      "generalFitness",
+      "maintenance",
+      "returnAfterBreak"
+    ],
+    "nameKey": "program.lib-guide-otago-balance.name",
+    "optionalEquipment": [],
+    "progressionMethod": "retainAndReview",
+    "provenanceKey": "program.lib-guide-otago-balance.provenance",
+    "sessions": [
+      {
+        "exercises": [
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-walk",
+            "id": "lib-ot.a.lib-ot-walk",
+            "metric": "duration",
+            "movementPattern": "cardio",
+            "nameKey": "exercise.lib-ot-walk.name",
+            "order": 0,
+            "primaryMuscles": [
+              "hips"
+            ],
+            "secondaryMuscles": [
+              "calves"
+            ],
+            "sets": [
+              {
+                "durationSeconds": 300,
+                "id": "lib-ot.a.lib-ot-walk.generalWarmup.0",
+                "restSeconds": 0,
+                "type": "generalWarmup"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-chair-stand",
+            "id": "lib-ot.a.lib-ot-chair-stand",
+            "metric": "bodyweightReps",
+            "movementPattern": "squat",
+            "nameKey": "exercise.lib-ot-chair-stand.name",
+            "order": 1,
+            "primaryMuscles": [
+              "quads",
+              "glutes"
+            ],
+            "secondaryMuscles": [
+              "hips"
+            ],
+            "sets": [
+              {
+                "id": "lib-ot.a.lib-ot-chair-stand.working.0",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-ot.a.lib-ot-chair-stand.working.1",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 75,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-heel-raise",
+            "id": "lib-ot.a.lib-ot-heel-raise",
+            "metric": "bodyweightReps",
+            "movementPattern": "squat",
+            "nameKey": "exercise.lib-ot-heel-raise.name",
+            "order": 2,
+            "primaryMuscles": [
+              "calves"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "id": "lib-ot.a.lib-ot-heel-raise.working.0",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-ot.a.lib-ot-heel-raise.working.1",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 60,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-knee-extension",
+            "id": "lib-ot.a.lib-ot-knee-extension",
+            "metric": "bodyweightReps",
+            "movementPattern": "squat",
+            "nameKey": "exercise.lib-ot-knee-extension.name",
+            "order": 3,
+            "primaryMuscles": [
+              "quads"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "id": "lib-ot.a.lib-ot-knee-extension.working.0",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-ot.a.lib-ot-knee-extension.working.1",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 60,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-balance-hold",
+            "id": "lib-ot.a.lib-ot-balance-hold",
+            "metric": "duration",
+            "movementPattern": "core",
+            "nameKey": "exercise.lib-ot-balance-hold.name",
+            "order": 4,
+            "primaryMuscles": [
+              "hips",
+              "core"
+            ],
+            "secondaryMuscles": [
+              "calves"
+            ],
+            "sets": [
+              {
+                "durationSeconds": 25,
+                "id": "lib-ot.a.lib-ot-balance-hold.working.0",
+                "restSeconds": 30,
+                "type": "working"
+              },
+              {
+                "durationSeconds": 25,
+                "id": "lib-ot.a.lib-ot-balance-hold.working.1",
+                "restSeconds": 30,
+                "type": "working"
+              },
+              {
+                "durationSeconds": 25,
+                "id": "lib-ot.a.lib-ot-balance-hold.working.2",
+                "restSeconds": 30,
+                "type": "working"
+              },
+              {
+                "durationSeconds": 25,
+                "id": "lib-ot.a.lib-ot-balance-hold.working.3",
+                "restSeconds": 30,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-walk",
+            "id": "lib-ot.a.lib-ot-walk.1",
+            "metric": "duration",
+            "movementPattern": "cardio",
+            "nameKey": "exercise.lib-ot-walk.name",
+            "order": 5,
+            "primaryMuscles": [
+              "hips"
+            ],
+            "secondaryMuscles": [
+              "calves"
+            ],
+            "sets": [
+              {
+                "durationSeconds": 600,
+                "id": "lib-ot.a.lib-ot-walk.1.cooldown.0",
+                "restSeconds": 0,
+                "type": "cooldown"
+              }
+            ]
+          }
+        ],
+        "id": "lib-ot.a",
+        "nameKey": "session.lib-ot.a"
+      },
+      {
+        "exercises": [
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-walk",
+            "id": "lib-ot.w.lib-ot-walk",
+            "metric": "duration",
+            "movementPattern": "cardio",
+            "nameKey": "exercise.lib-ot-walk.name",
+            "order": 0,
+            "primaryMuscles": [
+              "hips"
+            ],
+            "secondaryMuscles": [
+              "calves"
+            ],
+            "sets": [
+              {
+                "durationSeconds": 1200,
+                "id": "lib-ot.w.lib-ot-walk.working.0",
+                "restSeconds": 0,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-mobility",
+            "id": "lib-ot.w.lib-ot-mobility",
+            "metric": "duration",
+            "movementPattern": "mobility",
+            "nameKey": "exercise.lib-ot-mobility.name",
+            "order": 1,
+            "primaryMuscles": [
+              "hips"
+            ],
+            "secondaryMuscles": [
+              "shoulders",
+              "calves"
+            ],
+            "sets": [
+              {
+                "durationSeconds": 480,
+                "id": "lib-ot.w.lib-ot-mobility.cooldown.0",
+                "restSeconds": 0,
+                "type": "cooldown"
+              }
+            ]
+          }
+        ],
+        "id": "lib-ot.w",
+        "nameKey": "session.lib-ot.w"
+      },
+      {
+        "exercises": [
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-walk",
+            "id": "lib-ot.b.lib-ot-walk",
+            "metric": "duration",
+            "movementPattern": "cardio",
+            "nameKey": "exercise.lib-ot-walk.name",
+            "order": 0,
+            "primaryMuscles": [
+              "hips"
+            ],
+            "secondaryMuscles": [
+              "calves"
+            ],
+            "sets": [
+              {
+                "durationSeconds": 300,
+                "id": "lib-ot.b.lib-ot-walk.generalWarmup.0",
+                "restSeconds": 0,
+                "type": "generalWarmup"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-step-up",
+            "id": "lib-ot.b.lib-ot-step-up",
+            "metric": "bodyweightReps",
+            "movementPattern": "lunge",
+            "nameKey": "exercise.lib-ot-step-up.name",
+            "order": 1,
+            "primaryMuscles": [
+              "quads",
+              "glutes"
+            ],
+            "secondaryMuscles": [
+              "calves"
+            ],
+            "sets": [
+              {
+                "id": "lib-ot.b.lib-ot-step-up.working.0",
+                "repsMax": 10,
+                "repsMin": 6,
+                "restSeconds": 75,
+                "type": "working"
+              },
+              {
+                "id": "lib-ot.b.lib-ot-step-up.working.1",
+                "repsMax": 10,
+                "repsMin": 6,
+                "restSeconds": 75,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-knee-curl",
+            "id": "lib-ot.b.lib-ot-knee-curl",
+            "metric": "bodyweightReps",
+            "movementPattern": "hinge",
+            "nameKey": "exercise.lib-ot-knee-curl.name",
+            "order": 2,
+            "primaryMuscles": [
+              "hamstrings"
+            ],
+            "secondaryMuscles": [],
+            "sets": [
+              {
+                "id": "lib-ot.b.lib-ot-knee-curl.working.0",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-ot.b.lib-ot-knee-curl.working.1",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 60,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-wall-push-up",
+            "id": "lib-ot.b.lib-ot-wall-push-up",
+            "metric": "bodyweightReps",
+            "movementPattern": "horizontalPush",
+            "nameKey": "exercise.lib-ot-wall-push-up.name",
+            "order": 3,
+            "primaryMuscles": [
+              "chest"
+            ],
+            "secondaryMuscles": [
+              "shoulders",
+              "arms"
+            ],
+            "sets": [
+              {
+                "id": "lib-ot.b.lib-ot-wall-push-up.working.0",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 60,
+                "type": "working"
+              },
+              {
+                "id": "lib-ot.b.lib-ot-wall-push-up.working.1",
+                "repsMax": 12,
+                "repsMin": 8,
+                "restSeconds": 60,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-tandem-walk",
+            "id": "lib-ot.b.lib-ot-tandem-walk",
+            "metric": "duration",
+            "movementPattern": "core",
+            "nameKey": "exercise.lib-ot-tandem-walk.name",
+            "order": 4,
+            "primaryMuscles": [
+              "hips",
+              "core"
+            ],
+            "secondaryMuscles": [
+              "calves"
+            ],
+            "sets": [
+              {
+                "durationSeconds": 20,
+                "id": "lib-ot.b.lib-ot-tandem-walk.working.0",
+                "restSeconds": 30,
+                "type": "working"
+              },
+              {
+                "durationSeconds": 20,
+                "id": "lib-ot.b.lib-ot-tandem-walk.working.1",
+                "restSeconds": 30,
+                "type": "working"
+              },
+              {
+                "durationSeconds": 20,
+                "id": "lib-ot.b.lib-ot-tandem-walk.working.2",
+                "restSeconds": 30,
+                "type": "working"
+              },
+              {
+                "durationSeconds": 20,
+                "id": "lib-ot.b.lib-ot-tandem-walk.working.3",
+                "restSeconds": 30,
+                "type": "working"
+              }
+            ]
+          },
+          {
+            "equipmentIDs": [
+              "bodyweight"
+            ],
+            "exerciseID": "lib-ot-walk",
+            "id": "lib-ot.b.lib-ot-walk.1",
+            "metric": "duration",
+            "movementPattern": "cardio",
+            "nameKey": "exercise.lib-ot-walk.name",
+            "order": 5,
+            "primaryMuscles": [
+              "hips"
+            ],
+            "secondaryMuscles": [
+              "calves"
+            ],
+            "sets": [
+              {
+                "durationSeconds": 600,
+                "id": "lib-ot.b.lib-ot-walk.1.cooldown.0",
+                "restSeconds": 0,
+                "type": "cooldown"
+              }
+            ]
+          }
+        ],
+        "id": "lib-ot.b",
+        "nameKey": "session.lib-ot.b"
+      }
+    ],
+    "split": "fullBody",
+    "summaryKey": "program.lib-guide-otago-balance.summary",
+    "variants": [
+      {
+        "daysPerWeek": 4,
+        "durationEstimateMinutes": 30,
+        "id": "lib-guide-otago-balance.four-day",
+        "nameKey": "variant.lib-guide-otago-balance.four-day",
+        "sessionLimit": 32,
+        "sessionOrder": [
+          "lib-ot.a",
+          "lib-ot.w",
+          "lib-ot.b",
+          "lib-ot.a"
+        ],
+        "trainingDays": [
+          0,
+          1,
+          2,
+          4
+        ]
+      }
+    ],
+    "version": 1
+  },
+  "schema": 1,
+  "text": {
+    "ar": {
+      "exercise.lib-ot-balance-hold.errors": "التمرين بعيدًا عن مسكة ثابتة، وحبس النفس.",
+      "exercise.lib-ot-balance-hold.instructions": "قف بجانب سطح ثابت وأمسكه، ارفع قدمًا واحدة قليلًا واثبت. بدّل الرجل. خفّف المسكة تدريجيًا فقط إذا كنت ثابتًا.",
+      "exercise.lib-ot-balance-hold.name": "توازن مع مسكة",
+      "exercise.lib-ot-chair-stand.errors": "الجلوس بسرعة بدل النزول المتحكم، وتقدم الركبتين للداخل.",
+      "exercise.lib-ot-chair-stand.instructions": "اجلس على كرسي ثابت، قدماك على الأرض، ثم قم واقفًا واجلس ببطء. استخدم يديك فقط إذا احتجت.",
+      "exercise.lib-ot-chair-stand.name": "الوقوف من الكرسي",
+      "exercise.lib-ot-heel-raise.errors": "ترك المسكة، والارتداد السريع.",
+      "exercise.lib-ot-heel-raise.instructions": "قف ممسكًا بظهر كرسي أو طاولة، ارفع كعبيك ببطء ثم أنزلهما.",
+      "exercise.lib-ot-heel-raise.name": "رفع الكعبين",
+      "exercise.lib-ot-knee-curl.errors": "تقويس الظهر، والحركة السريعة.",
+      "exercise.lib-ot-knee-curl.instructions": "قف ممسكًا بظهر كرسي، اثنِ ركبة واحدة لتقرب الكعب من المقعدة ثم أنزلها ببطء. بدّل الرجل.",
+      "exercise.lib-ot-knee-curl.name": "ثني الركبة واقفًا",
+      "exercise.lib-ot-knee-extension.errors": "الميلان للخلف، والإنزال السريع.",
+      "exercise.lib-ot-knee-extension.instructions": "اجلس منتصبًا على كرسي، مد ركبة واحدة حتى تستقيم الساق، اثبت ثانيتين ثم أنزلها. بدّل الرجل.",
+      "exercise.lib-ot-knee-extension.name": "مد الركبة جالسًا",
+      "exercise.lib-ot-mobility.errors": "الحركة بقوة أو الدفع داخل الألم.",
+      "exercise.lib-ot-mobility.instructions": "دوائر هادئة للكاحل، وتحريك الورك للأمام والجانب مع المسك، ودوائر للكتف. بدون ألم.",
+      "exercise.lib-ot-mobility.name": "حركة الكاحل والورك والكتف",
+      "exercise.lib-ot-step-up.errors": "درجة عالية جدًا، والصعود بدون مسكة.",
+      "exercise.lib-ot-step-up.instructions": "أمسك الدرابزين واصعد درجة منخفضة برجل واحدة ثم انزل ببطء. بدّل الرجل.",
+      "exercise.lib-ot-step-up.name": "صعود درجة منخفضة",
+      "exercise.lib-ot-tandem-walk.errors": "التمرين بدون دعم قريب، والنظر للأرض طوال الوقت.",
+      "exercise.lib-ot-tandem-walk.instructions": "بجانب حائط أو طاولة للمسك، امشِ خطوات قصيرة تضع فيها كعب القدم أمام أصابع الأخرى.",
+      "exercise.lib-ot-tandem-walk.name": "المشي من الكعب إلى الأصابع",
+      "exercise.lib-ot-walk.errors": "المشي على أسطح غير آمنة أو بسرعة تسبب ضيق نفس.",
+      "exercise.lib-ot-walk.instructions": "امشِ بخطوة مريحة على سطح آمن ومستوٍ.",
+      "exercise.lib-ot-walk.name": "مشي مريح",
+      "exercise.lib-ot-wall-push-up.errors": "هبوط الورك، والوقوف بعيدًا جدًا عن الحائط.",
+      "exercise.lib-ot-wall-push-up.instructions": "قف أمام الحائط بمسافة ذراع، ضع كفيك عليه، اقترب بصدرك ثم ادفع للعودة.",
+      "exercise.lib-ot-wall-push-up.name": "دفع الحائط",
+      "program.lib-guide-otago-balance.name": "قوة وتوازن لكبار السن · 8 أسابيع",
+      "program.lib-guide-otago-balance.origin": "مستوحى من: Otago Exercise Programme",
+      "program.lib-guide-otago-balance.provenance": "من الدليل اليومي في مكتبة ثبات. هيكل أسبوعي مبني على مبادئ برنامج أوتاغو، والأدلة تظهر أن تمارين التوازن والوظيفة تقلل معدل السقوط.",
+      "program.lib-guide-otago-balance.summary": "أربعة أيام خفيفة: قوة وتوازن، مشي وحركة، قوة وتوازن، ثم تكرار الحصة الأولى. كل التمارين بجانب مسكة ثابتة. أضف تكرارين أو مقاومة خفيفة فقط إذا لم يحدث ألم أو فقدان توازن. هذا الهيكل لا يغني عن التقييم الأولي لخطر السقوط؛ أوقف الجلسة عند دوخة أو ألم صدري أو ضيق نفس.",
+      "session.lib-ot.a": "قوة وتوازن أ",
+      "session.lib-ot.b": "قوة وتوازن ب",
+      "session.lib-ot.w": "مشي وحركة",
+      "variant.lib-guide-otago-balance.four-day": "4 أيام في الأسبوع · 8 أسابيع"
+    },
+    "en": {
+      "exercise.lib-ot-balance-hold.errors": "Practising away from support; holding your breath.",
+      "exercise.lib-ot-balance-hold.instructions": "Stand next to something sturdy and hold it, lift one foot slightly and hold. Switch legs. Lighten your grip only when steady.",
+      "exercise.lib-ot-balance-hold.name": "Supported balance",
+      "exercise.lib-ot-chair-stand.errors": "Dropping into the chair instead of lowering with control; knees caving in.",
+      "exercise.lib-ot-chair-stand.instructions": "Sit on a sturdy chair with feet flat, stand up, then sit back down slowly. Use your hands only if you need to.",
+      "exercise.lib-ot-chair-stand.name": "Chair stand",
+      "exercise.lib-ot-heel-raise.errors": "Letting go of support; bouncing.",
+      "exercise.lib-ot-heel-raise.instructions": "Hold the back of a chair or a counter, rise slowly onto your toes, then lower.",
+      "exercise.lib-ot-heel-raise.name": "Heel raise",
+      "exercise.lib-ot-knee-curl.errors": "Arching the back; moving fast.",
+      "exercise.lib-ot-knee-curl.instructions": "Hold the back of a chair, bend one knee to bring the heel towards your seat, lower slowly. Switch legs.",
+      "exercise.lib-ot-knee-curl.name": "Standing knee curl",
+      "exercise.lib-ot-knee-extension.errors": "Leaning back; lowering too fast.",
+      "exercise.lib-ot-knee-extension.instructions": "Sit tall on a chair, straighten one knee, hold two seconds, lower. Switch legs.",
+      "exercise.lib-ot-knee-extension.name": "Seated knee extension",
+      "exercise.lib-ot-mobility.errors": "Forcing the movement or pushing into pain.",
+      "exercise.lib-ot-mobility.instructions": "Gentle ankle circles, supported hip swings forward and sideways, and shoulder circles. Pain-free.",
+      "exercise.lib-ot-mobility.name": "Ankle, hip and shoulder mobility",
+      "exercise.lib-ot-step-up.errors": "A step that is too high; no handhold.",
+      "exercise.lib-ot-step-up.instructions": "Hold a rail and step up onto a low step with one leg, then step down slowly. Switch legs.",
+      "exercise.lib-ot-step-up.name": "Low step-up",
+      "exercise.lib-ot-tandem-walk.errors": "Practising without nearby support; staring at the floor the whole time.",
+      "exercise.lib-ot-tandem-walk.instructions": "Beside a wall or counter for support, take short steps placing one heel right in front of the other foot's toes.",
+      "exercise.lib-ot-tandem-walk.name": "Heel-to-toe walk",
+      "exercise.lib-ot-walk.errors": "Walking on unsafe surfaces or so fast you get out of breath.",
+      "exercise.lib-ot-walk.instructions": "Walk at a comfortable pace on a safe, level surface.",
+      "exercise.lib-ot-walk.name": "Easy walk",
+      "exercise.lib-ot-wall-push-up.errors": "Sagging hips; standing too far from the wall.",
+      "exercise.lib-ot-wall-push-up.instructions": "Stand an arm's length from a wall, hands on it, bring your chest in, then push back.",
+      "exercise.lib-ot-wall-push-up.name": "Wall push-up",
+      "program.lib-guide-otago-balance.name": "Strength & Balance for Older Adults · 8 weeks",
+      "program.lib-guide-otago-balance.origin": "Inspired by: Otago Exercise Programme",
+      "program.lib-guide-otago-balance.provenance": "From the daily guide in the Thabat library. A weekly structure built on the principles of the Otago programme; evidence shows balance and functional training lowers the rate of falls.",
+      "program.lib-guide-otago-balance.summary": "Four gentle days: strength and balance, walking and mobility, strength and balance, then the first session again. Every exercise is done beside sturdy support. Add two reps or light resistance only if there is no pain or loss of balance. This plan does not replace a fall-risk assessment; stop if you feel dizzy, have chest pain or unusual breathlessness.",
+      "session.lib-ot.a": "Strength & balance A",
+      "session.lib-ot.b": "Strength & balance B",
+      "session.lib-ot.w": "Walk & mobility",
+      "variant.lib-guide-otago-balance.four-day": "4 days a week · 8 weeks"
+    }
+  }
+}
